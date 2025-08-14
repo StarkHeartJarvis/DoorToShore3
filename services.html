@@ -1,0 +1,394 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   DoorToShore LLP
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+   /* Custom shadow for the active nav item */
+    .active-nav {
+      box-shadow: 0 0 15px rgba(59, 130, 246, 0.7);
+    }
+  </style>
+ </head>
+ <body class="bg-white font-sans">
+   <header class="bg-white shadow-sm">
+    <nav class="max-w-[1280px] mx-auto flex flex-wrap items-center justify-between gap-4 px-6 py-4 text-sm text-[#1a2a4f] select-none overflow-x-auto scrollbar-hide">
+      <a href="#" class="flex items-center gap-2 shrink-0">
+        <div class="bg-[#2a52d8] rounded-lg p-2">
+          <i class="fas fa-anchor text-white text-lg"></i>
+        </div>
+        <span class="font-semibold text-[#1a2a4f] whitespace-nowrap">DoorToShore LLP</span>
+      </a>
+      
+      <!-- Desktop Menu -->
+      <div class="hidden md:flex items-center gap-4 flex-grow">
+        <a href="index3.html" class="whitespace-nowrap">
+          Home
+        </a>
+        <a href="#" class="bg-[#2a52d8] text-white rounded-xl px-4 py-2 font-semibold relative">Services
+             <span class="absolute -bottom-1 left-1/2 -translate-x-1/2 w-2 h-2 bg-white rounded-full"></span>
+
+        </a>
+        <a href="freight.html" class="whitespace-nowrap">Freight Forwarding & Logistics
+                   </a>
+        <a href="ship.html" class="whitespace-nowrap">Toolkit</a>
+        <a href="client.html" class="whitespace-nowrap">Client Testimonials</a>   
+        <a href="testimonial.html" class="whitespace-nowrap">Submit Testimonials</a>
+        <a href="contact.html" class="whitespace-nowrap">Contact
+        </a>
+      </div>
+
+      <!-- Hamburger Menu Button -->
+      <button id="menu-toggle" class="md:hidden flex items-center text-[#2a52d8] focus:outline-none">
+        <i class="fas fa-bars"></i>
+      </button>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden md:hidden bg-white shadow-md">
+      <a href="index3.html" class="block px-4 py-2 text-sm text-[#1a2a4f]">Home</a>
+      <a href="#" class="block px-4 py-2 text-sm text-[#1a2a4f]">Services</a>
+      <a href="freight.html" class="block px-4 py-2 text-sm text-[#1a2a4f]">Freight Forwarding & Logistics</a>
+      <a href="ship.html" class="block px-4 py-2 text-sm text-[#1a2a4f]">Toolkit</a>
+      <a href="client.html" class="block px-4 py-2 text-sm text-[#1a2a4f]">Client Testimonials</a>
+      <a href="testimonial.html" class="block px-4 py-2 text-sm text-[#1a2a4f]">Submit Testimonials</a>
+      <a href="contact.html" class="block px-4 py-2 text-sm text-[#1a2a4f]">Contact</a>
+    </div>
+  </header>
+
+  <script>
+    const menuToggle = document.getElementById('menu-toggle');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    menuToggle.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-r from-blue-900 to-blue-600 text-white py-12 px-4 text-center">
+   <h1 class="text-3xl md:text-4xl font-extrabold flex justify-center items-center gap-3 max-w-4xl mx-auto">
+    <img alt="Blue anchor icon" class="w-8 h-8" src="https://placehold.co/32x32/7fb4d6/7fb4d6.png?text=%E2%9A%93"/>
+    Our Maritime Services
+   </h1>
+   <p class="mt-4 max-w-3xl mx-auto text-lg font-normal leading-relaxed">
+    End-to-end maritime solutions across the West Coast of India, tailored to meet the dynamic needs of global maritime operations
+   </p>
+  </section>
+
+
+   <!-- Content -->
+  <main class="max-w-5xl mx-auto px-6 mt-8 grid grid-cols-1 md:grid-cols-2 gap-8">
+   <!-- Card 1 -->
+   <section class="bg-[#F3F4F6] rounded-xl overflow-hidden">
+    <div class="relative">
+     <img alt="Placeholder image representing shipping agency and port services" class="w-full h-[300px] object-cover" src="https://vjmathew.com/wp-content/uploads/2023/09/fundamentals-transformed.jpeg"/>
+     <div class="absolute top-4 left-4 bg-white rounded-full p-3 shadow-md">
+      <i class="fas fa-ship text-[#2B56F5] text-xl">
+      </i>
+     </div>
+    </div>
+    <div class="p-6">
+     <h2 class="text-lg font-normal leading-6 mb-2 select-text">
+      <span>
+       <!--🚢-->
+      </span>
+      Shipping Agency &amp; Port Services
+     </h2>
+     <p class="text-gray-500 mb-6 leading-relaxed select-text">
+      Your reliable partner for vessel operations and port logistics. Complete port agency &amp; vessel handling services to ensure smooth vessel turnaround and hassle-free port calls.
+     </p>
+     <ul class="text-sm text-[#2B56F5] space-y-1 select-text">
+      <li class="flex items-center gap-2">
+       <span class="w-2 h-2 rounded-full bg-[#2B56F5] inline-block">
+       </span>
+       Port Clearance &amp; Documentation
+      </li>
+      <li class="flex items-center gap-2">
+       <span class="w-2 h-2 rounded-full bg-[#2B56F5] inline-block">
+       </span>
+       Crew Change Coordination
+      </li>
+      <li class="flex items-center gap-2">
+       <span class="w-2 h-2 rounded-full bg-[#2B56F5] inline-block">
+       </span>
+       Cargo Handling
+      </li>
+      <li class="flex items-center gap-2">
+       <span class="w-2 h-2 rounded-full bg-[#2B56F5] inline-block">
+       </span>
+       Charterers Agency
+      </li>
+      <li class="flex items-center gap-2">
+       <span class="w-2 h-2 rounded-full bg-[#2B56F5] inline-block">
+       </span>
+       Owners Protective Agency (OPA)
+      </li>
+      <li class="flex items-center gap-2">
+       <span class="w-2 h-2 rounded-full bg-[#2B56F5] inline-block">
+       </span>
+       Husbandry Services
+      </li>
+      <li class="flex items-center gap-2">
+       <span class="w-2 h-2 rounded-full bg-[#2B56F5] inline-block">
+       </span>
+      Bunkering Coordination
+      </li>
+      <li class="flex items-center gap-2">
+       <span class="w-2 h-2 rounded-full bg-[#2B56F5] inline-block">
+       </span>
+       Cash to Master (CTM) Delivery
+      </li>
+    </ul>
+    </div>
+   </section>
+   <!-- Card 2 -->
+
+   <section class="bg-[#F3F4F6] rounded-xl overflow-hidden">
+    <div class="relative">
+     <img alt="Placeholder image representing shipping agency and port services" class="w-full h-[300px] object-cover" src="https://radaanshipstores.com/wp-content/uploads/2023/06/1630662229ciaerialviewcontainershipcarryingcontainerimportexportbusiness.jpg"/>
+     <div class="absolute top-4 left-4 bg-white rounded-full p-3 shadow-md">
+      <i class="fas fa-ship text-[#2B56F5] text-xl">
+      </i>
+     </div>
+    </div>
+     <div class="p-6">
+     <h2 class="text-lg font-normal leading-6 mb-2 select-text">
+      <span>
+       <!--🛒-->
+      </span>
+      Ship Chandling &amp; Marine Supplies
+     </h2>
+       <p class="text-gray-500 mb-6 leading-relaxed select-text">
+      As a leading ship chandler in India, we supply high-quality marine products and provisions to ensure vessels are fully equipped and compliant.
+     </p>
+  <ul class="text-sm text-[#2B56F5] space-y-1 select-text">
+      <li class="flex items-center gap-2">
+       <span class="w-2 h-2 rounded-full bg-[#2B56F5] inline-block">
+       </span>
+       Bonded Stores  &amp; Marine Provisions
+      </li>
+      <li class="flex items-center gap-2">
+       <span class="w-2 h-2 rounded-full bg-[#2B56F5] inline-block">
+       </span>
+       Fresh Water Supply
+      </li>
+      <li class="flex items-center gap-2">
+       <span class="w-2 h-2 rounded-full bg-[#2B56F5] inline-block">
+       </span>
+       Deck, Engine, Cabin  &  Electric Stores
+      </li>
+     </ul>
+   </section>
+
+   <!-- Card 3 -->
+   <section class="bg-[#F3F4F6] rounded-xl overflow-hidden">
+    <div class="relative">
+     <img alt="Placeholder image representing shipping agency and port services" class="w-full h-[300px] object-cover" src="https://iforest.global/wp-content/uploads/2020/09/Plastic-Marine-waste-.jpg"/>
+     <div class="absolute top-4 left-4 bg-white rounded-full p-3 shadow-md">
+      <i class="fas fa-ship text-[#2B56F5] text-xl">
+      </i>
+     </div>
+    </div>
+    <div class="p-6">
+     <h2 class="text-lg font-normal leading-6 mb-2 select-text">
+      <span>
+       <!--🚢-->
+      </span>
+     Marine Waste Management
+     </h2>
+      <p class="text-gray-500 mb-6 leading-relaxed select-text">
+     We help vessels maintain environmental compliance with safe and certified marine waste disposal services.
+</p>
+    <ul class="text-sm text-[#2B56F5] space-y-1 select-text">
+      <li class="flex items-center gap-2">
+       <span class="w-2 h-2 rounded-full bg-[#2B56F5] inline-block">
+       </span>
+      	Sludge Oil Disposal
+        </li>
+        <li class="flex items-center gap-2">
+       <span class="w-2 h-2 rounded-full bg-[#2B56F5] inline-block">
+       </span>
+      Food Waste & Dry Waste Management
+      </li>
+      <li class="flex items-center gap-2">
+       <span class="w-2 h-2 rounded-full bg-[#2B56F5] inline-block">
+       </span>
+       Bilge Water & Slope Discharge
+      </li>
+      <li class="flex items-center gap-2">
+       <span class="w-2 h-2 rounded-full bg-[#2B56F5] inline-block">
+       </span>
+       Ship Garbage Collection
+      </li>
+     </ul>
+    </div>
+   </section>
+   <!-- Card 4 -->
+   <section class="bg-[#F3F4F6] rounded-xl overflow-hidden">
+    <div class="relative">
+     <img alt="Placeholder image representing shipping agency and port services" class="w-full h-[300px] object-cover" src="https://www.corriganlogistics.com/wp-content/uploads/2025/04/01-how-to-choose-the-right-freight-forwarder.jpg"/>
+     <div class="absolute top-4 left-4 bg-white rounded-full p-3 shadow-md">
+      <i class="fas fa-ship text-[#2B56F5] text-xl">
+      </i>
+     </div>
+    </div>
+    <div class="p-6">
+     <h2 class="text-lg font-normal leading-6 mb-2 select-text">
+      <span>
+       <!--🛒 -->
+      </span>
+     Freight Forwarding & Maritime Logistics
+     </h2>
+       <p class="text-gray-500 mb-6 leading-relaxed select-text">
+       DoorToShore provides customized freight forwarding solutions for seamless cargo movement from port to final destination.  </p>
+       </p>
+ <ul class="text-sm text-[#2B56F5] space-y-1 select-text">
+      <li class="flex items-center gap-2">
+       <span class="w-2 h-2 rounded-full bg-[#2B56F5] inline-block">
+       </span>
+       Ocean Freight & Air Cargo
+      </li>
+      <li class="flex items-center gap-2">
+       <span class="w-2 h-2 rounded-full bg-[#2B56F5] inline-block">
+       </span>
+      Customs Clearance
+      </li>
+      <li class="flex items-center gap-2">
+       <span class="w-2 h-2 rounded-full bg-[#2B56F5] inline-block">
+       </span>
+      Inland Transportation
+      </li>
+       <li class="flex items-center gap-2">
+       <span class="w-2 h-2 rounded-full bg-[#2B56F5] inline-block">
+       </span>
+      Ship Spares Logistics
+      </li>
+       <li class="flex items-center gap-2">
+       <span class="w-2 h-2 rounded-full bg-[#2B56F5] inline-block">
+       </span>
+      Onboard Delivery (OBD)
+      </li>
+     </ul>
+   </section>
+  </main>
+
+
+<main class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 py-16">
+    <h2 class="text-center font-semibold text-xl mb-12">Why Choose Our Services?</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-y-12 gap-x-8 max-w-5xl mx-auto">
+      <div class="flex flex-col items-center text-center px-4">
+        <div class="bg-white rounded-full p-4 shadow-md mb-4">
+          <i class="fas fa-clock text-green-600 text-xl"></i>
+        </div>
+        <h3 class="font-semibold text-base mb-2">24/7 Operational Support</h3>
+        <p class="text-sm text-gray-600 leading-relaxed">
+          Round-the-clock service for urgent maritime needs across Indian ports
+        </p>
+      </div>
+      <div class="flex flex-col items-center text-center px-4">
+        <div class="bg-white rounded-full p-4 shadow-md mb-4">
+          <i class="fas fa-globe text-blue-600 text-xl"></i>
+        </div>
+        <h3 class="font-semibold text-base mb-2">West Coast India Focus</h3>
+        <p class="text-sm text-gray-600 leading-relaxed">
+          Strategic location in Surat, Gujarat with extensive WCI coverage
+        </p>
+      </div>
+      <div class="flex flex-col items-center text-center px-4">
+        <div class="bg-white rounded-full p-4 shadow-md mb-4">
+          <i class="fas fa-shield-alt text-purple-600 text-xl"></i>
+        </div>
+        <h3 class="font-semibold text-base mb-2">IMO Compliance</h3>
+        <p class="text-sm text-gray-600 leading-relaxed">
+          Full adherence to international maritime standards and regulations
+        </p>
+      </div>
+      <div class="flex flex-col items-center text-center px-4">
+        <div class="bg-white rounded-full p-4 shadow-md mb-4">
+          <i class="fas fa-user-friends text-orange-600 text-xl"></i>
+        </div>
+        <h3 class="font-semibold text-base mb-2">Single Point Contact</h3>
+        <p class="text-sm text-gray-600 leading-relaxed">
+          Comprehensive solutions through one dedicated contact
+        </p>
+      </div>
+    </div>
+  </main>
+
+   <!-- Blue section -->
+ <!--
+    <section class="bg-blue-700 mt-20 py-16">
+   <div class="max-w-4xl mx-auto px-4 text-center text-white">
+    <h2 class="font-bold text-2xl md:text-3xl leading-tight">
+     Need Maritime Services in India?
+    </h2>
+    <p class="mt-4 text-base md:text-lg max-w-xl mx-auto leading-relaxed">
+     Contact our experienced team for customized solutions for your vessel
+        operations across the West Coast of India
+    </p>
+    <div class="mt-8 flex flex-col sm:flex-row justify-center gap-4 max-w-md mx-auto">
+     <button class="bg-white text-blue-700 font-semibold rounded-lg px-6 py-3 hover:bg-gray-100 transition" type="button">
+      <span class="font-bold">
+       Call Now:
+      </span>
+      +91 94085 22980
+     </button>
+     <button class="border border-white text-white font-semibold rounded-lg px-6 py-3 hover:bg-white hover:text-blue-700 transition" type="button">
+      <span class="font-bold">
+       Email:
+      </span>
+      ops@doortoshore.co.in
+     </button>
+    </div>
+   </div>
+  </section> -->
+
+   <!-- Footer -->
+  <footer class="bg-white border-t border-gray-200 mt-16">
+    <div class="max-w-[1280px] mx-auto px-6 py-10 grid grid-cols-1 sm:grid-cols-3 gap-10 text-gray-700">
+      <div>
+        <h4 class="text-lg font-semibold mb-4 text-[#1a2a4f]">DoorToShore LLP</h4>
+        <p class="text-sm max-w-xs">
+          Trusted Shipping &amp; Marine Services provider located in Surat, Gujarat, India. Delivering end-to-end maritime solutions with a focus on efficiency and compliance.
+        </p>
+        <div class="flex space-x-4 mt-4 text-[#2a52d8] text-xl">
+          <a href="#" aria-label="Facebook" class="hover:text-[#1a2a4f]"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Twitter" class="hover:text-[#1a2a4f]"><i class="fab fa-twitter"></i></a>
+          <a href="#" aria-label="LinkedIn" class="hover:text-[#1a2a4f]"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" aria-label="Instagram" class="hover:text-[#1a2a4f]"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <div>
+        <h4 class="text-lg font-semibold mb-4 text-[#1a2a4f]">Quick Links</h4>
+           <ul class="space-y-2 text-sm">
+          <li><a href="index3.html" class="hover:text-[#2a52d8]">Home</a></li>
+          <li><a href="#" class="hover:text-[#2a52d8]">Services</a></li>
+         <li><a href="freight.html" class="hover:text-[#2a52d8]">Freight Forwarding &amp; Logistics</a></li>
+          <li><a href="ship.html" class="hover:text-[#2a52d8]">Toolkit</a></li>
+          <li><a href="client.html" class="hover:text-[#2a52d8]">Client Testimonials</a></li>
+          <li><a href="testimonial.html" class="hover:text-[#2a52d8]">Submit Testimonials</a></li>
+          <li><a href="contact.html" class="hover:text-[#2a52d8]">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="text-lg font-semibold mb-4 text-[#1a2a4f]">Contact Us</h4>
+        <address class="not-italic text-sm space-y-3">
+          <p><i class="fas fa-map-marker-alt mr-2 text-[#2a52d8]"></i> Surat, Gujarat, India</p>
+          <p><i class="fas fa-phone-alt mr-2 text-[#2a52d8]"></i> <a href="tel:+919408522980" class="hover:text-[#2a52d8]">+91 94085 22980</a></p>
+          <p><i class="far fa-envelope mr-2 text-[#2a52d8]"></i> <a href="mailto:ops@doortoshore.co.in" class="hover:text-[#2a52d8]">ops@doortoshore.co.in</a></p>
+        </address>
+      </div>
+    </div>
+    <div class="border-t border-gray-200 mt-8 py-4 text-center text-xs text-gray-500 select-none">
+      &copy; 2024 DoorToShore LLP. All rights reserved.
+    </div>
+  </footer>
+
+
+ </body>
+</html>

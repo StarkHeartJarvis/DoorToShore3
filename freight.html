@@ -1,0 +1,433 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   DoorToShore LLP - Freight Forwarding &amp; Logistics
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+ </head>
+ <body class="bg-gray-50">
+      <header class="bg-white shadow-sm">
+    <nav class="max-w-[1280px] mx-auto flex flex-wrap items-center justify-between gap-4 px-6 py-4 text-sm text-[#1a2a4f] select-none overflow-x-auto scrollbar-hide">
+      <a href="#" class="flex items-center gap-2 shrink-0">
+        <div class="bg-[#2a52d8] rounded-lg p-2">
+          <i class="fas fa-anchor text-white text-lg"></i>
+        </div>
+        <span class="font-semibold text-[#1a2a4f] whitespace-nowrap">DoorToShore LLP</span>
+      </a>
+      
+      <!-- Desktop Menu -->
+      <div class="hidden md:flex items-center gap-4 flex-grow">
+        <a href="index3.html" class="whitespace-nowrap">
+          Home
+        </a>
+        <a href="services.html" class="whitespace-nowrap">Services</a>
+        <a href="#" class="bg-[#2a52d8] text-white rounded-xl px-4 py-2 font-semibold relative">Freight Forwarding & Logistics
+            <span class="absolute -bottom-1 left-1/2 -translate-x-1/2 w-2 h-2 bg-white rounded-full"></span>
+        </a>
+        <a href="ship.html" class="whitespace-nowrap">Toolkit</a>
+        <a href="client.html" class="whitespace-nowrap">Client Testimonials</a>   
+        <a href="testimonial.html" class="whitespace-nowrap">Submit Testimonials</a>
+        <a href="contact.html" class="whitespace-nowrap">Contact
+        </a>
+      </div>
+
+      <!-- Hamburger Menu Button -->
+      <button id="menu-toggle" class="md:hidden flex items-center text-[#2a52d8] focus:outline-none">
+        <i class="fas fa-bars"></i>
+      </button>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden md:hidden bg-white shadow-md">
+      <a href="index3.html" class="block px-4 py-2 text-sm text-[#1a2a4f]">Home</a>
+      <a href="services.html" class="block px-4 py-2 text-sm text-[#1a2a4f]">Services</a>
+      <a href="#" class="block px-4 py-2 text-sm text-[#1a2a4f]">Freight Forwarding & Logistics</a>
+      <a href="ship.html" class="block px-4 py-2 text-sm text-[#1a2a4f]">Toolkit</a>
+      <a href="client.html" class="block px-4 py-2 text-sm text-[#1a2a4f]">Client Testimonials</a>
+      <a href="testimonial.html" class="block px-4 py-2 text-sm text-[#1a2a4f]">Submit Testimonials</a>
+      <a href="contact.html" class="block px-4 py-2 text-sm text-[#1a2a4f]">Contact</a>
+    </div>
+  </header>
+
+  <script>
+    const menuToggle = document.getElementById('menu-toggle');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    menuToggle.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-b from-blue-700 to-blue-800 text-white py-16 px-4 text-center">
+   <h1 class="max-w-4xl mx-auto text-3xl sm:text-4xl md:text-5xl font-extrabold leading-tight flex justify-center items-center gap-3">
+    <!--<span aria-label="Delivery truck emoji" class="text-3xl md:text-4xl" role="img">
+     🚚
+    </span> -->
+    Freight Forwarding &amp; Maritime Logistics
+   </h1>
+   <p class="mt-4 max-w-2xl mx-auto text-base sm:text-lg font-normal">
+    End-to-end logistics solutions connecting your cargo to destinations worldwide
+   </p>
+  </section>
+  <!-- Stats Section -->
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+   <div class="grid grid-cols-2 sm:grid-cols-4 gap-y-8 text-center">
+    <div>
+     <h3 class="text-blue-700 font-extrabold text-xl sm:text-2xl">
+      25+
+     </h3>
+     <p class="text-gray-600 text-sm sm:text-base mt-1">
+      Years Experience
+     </p>
+    </div>
+    <div>
+     <h3 class="text-blue-700 font-extrabold text-xl sm:text-2xl">
+      50K+
+     </h3>
+     <p class="text-gray-600 text-sm sm:text-base mt-1">
+      Shipments Handled
+     </p>
+    </div>
+    <div>
+     <h3 class="text-blue-700 font-extrabold text-xl sm:text-2xl">
+      200+
+     </h3>
+     <p class="text-gray-600 text-sm sm:text-base mt-1">
+      Global Destinations
+     </p>
+    </div>
+    <div>
+     <h3 class="text-blue-700 font-extrabold text-xl sm:text-2xl">
+      99.8%
+     </h3>
+     <p class="text-gray-600 text-sm sm:text-base mt-1">
+      On-Time Delivery
+     </p>
+    </div>
+   </div>
+  </section>
+
+   <!-- Main Content -->
+   <main class="max-w-5xl mx-auto px-6 mt-8 grid grid-cols-1 md:grid-cols-2 gap-10">
+   <section class="border border-transparent rounded-xl overflow-hidden">
+    <img alt="Black textured background representing ocean freight" class="w-full object-cover" src="https://statics.mylandingpages.co/static/aaanxdmf26c522mp/image/a67f12e73e1449fb8cbfcb75d493816c.webp"/>
+    <div class="bg-white p-6">
+     <h2 class="text-lg font-normal mb-2">
+      Ocean Freight
+     </h2>
+     <p class="text-gray-500 mb-6 text-sm">
+      Complete sea freight solutions for FCL and LCL shipments worldwide
+     </p>
+     <div class="flex flex-wrap gap-x-6 gap-y-3 text-xs font-semibold text-gray-700">
+      <div class="bg-gray-200 rounded-md px-3 py-1">
+       Full Container Load (FCL)
+      </div>
+      <div class="bg-gray-200 rounded-md px-3 py-1">
+       Less than Container Load (LCL)
+      </div>
+      <div class="bg-gray-200 rounded-md px-3 py-1">
+       Break bulk cargo
+      </div>
+      <div class="bg-gray-200 rounded-md px-3 py-1">
+       Project cargo handling
+      </div>
+      <div class="bg-gray-200 rounded-md px-3 py-1">
+       Reefer cargo services
+      </div>
+      <div class="bg-gray-200 rounded-md px-3 py-1">
+       Ro-Ro cargo services
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="border border-transparent rounded-xl overflow-hidden">
+    <img alt="Close-up of a person holding a wooden handle of a tool, representing air freight" class="w-full object-cover" src="https://www.maersk.com/~/media_sc9/maersk/logistics-explained/transportation-and-freight/11/air-cargo-2_1024x576.jpg"/>
+    <div class="bg-white p-6">
+     <h2 class="text-lg font-normal mb-2">
+      Air Freight
+     </h2>
+     <p class="text-gray-500 mb-6 text-sm">
+      Fast and reliable air cargo services for time-sensitive shipments
+     </p>
+     <div class="flex flex-wrap gap-x-6 gap-y-3 text-xs font-semibold text-gray-700">
+      <div class="bg-gray-200 rounded-md px-3 py-1">
+       Express air freight
+      </div>
+      <div class="bg-gray-200 rounded-md px-3 py-1">
+       Standard air cargo
+      </div>
+      <div class="bg-gray-200 rounded-md px-3 py-1">
+       Dangerous goods handling
+      </div>
+      <div class="bg-gray-200 rounded-md px-3 py-1">
+       Temperature controlled cargo
+      </div>
+      <div class="bg-gray-200 rounded-md px-3 py-1">
+       Consolidation services
+      </div>
+      <div class="bg-gray-200 rounded-md px-3 py-1">
+       Charter flight arrangements
+      </div>
+     </div>
+    </div>
+   </section>
+
+    <section class="border border-transparent rounded-xl overflow-hidden">
+    <img alt="Close-up of a person holding a wooden handle of a tool, representing air freight" class="w-full object-cover" src="https://delmashipping.com/wp-content/uploads/2016/11/The-Different-Modes-of-Transportation-Header-e1645547707423.jpg"/>
+    <div class="bg-white p-6">
+     <h2 class="text-lg font-normal mb-2">
+      Land Transportation
+     </h2>
+     <p class="text-gray-500 mb-6 text-sm">
+      Comprehensive trucking and rail freight services for inland transport
+     </p>
+     <div class="flex flex-wrap gap-x-6 gap-y-3 text-xs font-semibold text-gray-700">
+      <div class="bg-gray-200 rounded-md px-3 py-1">
+       Full truckload (FTL)
+      </div>
+      <div class="bg-gray-200 rounded-md px-3 py-1">
+       Specialized equipment
+      </div>
+      <div class="bg-gray-200 rounded-md px-3 py-1">
+      Last-mile delivery
+      </div>
+      <div class="bg-gray-200 rounded-md px-3 py-1">
+       Less than truckload (LTL)
+      </div>
+      <div class="bg-gray-200 rounded-md px-3 py-1">
+      Cross-docking services
+      </div>
+      <div class="bg-gray-200 rounded-md px-3 py-1">
+       Intermodal transportation
+      </div>
+     </div>
+    </div>
+   </section>
+
+ <section class="border border-transparent rounded-xl overflow-hidden">
+    <img alt="Close-up of a person holding a wooden handle of a tool, representing air freight" class="w-full object-cover" src="https://cdn.prod.website-files.com/65ae5e2298de9d281214b068/673c716ed9fb80047336ce3f_AD_4nXduDPvba6ejI_0m-UJhoeIlYb45y6Ax4fb_RPCJdTeGlZqv0NYVns4AA-4XBioLoAByzz3UyMpsEXlXZDpcIEOELX5ns2_kwbMazgYy5jKGg9xHHMpzD2QDxaf4p9NGVl37iOhImnLFc8M4MHrvolpswoE.png"/>
+    <div class="bg-white p-6">
+     <h2 class="text-lg font-normal mb-2">
+      Customs & Documentation
+     </h2>
+     <p class="text-gray-500 mb-6 text-sm">
+      Expert customs clearance and trade documentation services
+        </p>
+     <div class="flex flex-wrap gap-x-6 gap-y-3 text-xs font-semibold text-gray-700">
+      <div class="bg-gray-200 rounded-md px-3 py-1">
+      Import/export clearance
+      </div>
+      <div class="bg-gray-200 rounded-md px-3 py-1">
+       Trade compliance
+      </div>
+      <div class="bg-gray-200 rounded-md px-3 py-1">
+       License applications
+      </div>
+      <div class="bg-gray-200 rounded-md px-3 py-1">
+       Duty calculation & payment
+      </div>
+      <div class="bg-gray-200 rounded-md px-3 py-1">
+       Document preparation
+      </div>
+      <div class="bg-gray-200 rounded-md px-3 py-1">
+      Origin certificates
+      </div>
+     </div>
+    </div>
+   </section>
+  </main>
+
+  <section class="bg-[#f0f6ff] py-16">
+   <h2 class="text-center text-gray-900 font-semibold text-xl mb-12 max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+    Why Choose Our Logistics Services?
+   </h2>
+   <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+    <div class="bg-white rounded-xl p-8 flex flex-col items-center text-center space-y-4">
+     <div class="bg-[#f9fafb] rounded-full p-5">
+      <img alt="Blue globe icon representing global network" class="mx-auto" src="https://img.freepik.com/free-vector/world-map-with-global-technology-social-connection-network-with-nodes-links-vector-illustration_1284-1968.jpg"/>
+     </div>
+     <p class="text-gray-900 text-base">
+      Global Network
+     </p>
+    <!-- <p class="text-blue-600 font-semibold text-lg">
+      200+ Destinations
+     </p>
+     <p class="text-gray-500 text-sm max-w-xs">
+      Worldwide coverage with local expertise in over 200+ destinations
+     </p> -->
+    </div>
+    <div class="bg-white rounded-xl p-8 flex flex-col items-center text-center space-y-4">
+     <div class="bg-[#f9fafb] rounded-full p-5">
+      <img alt="Green clock icon representing fast transit times" class="mx-auto" src="https://frayte.global/wp-content/uploads/2019/08/transit_time.png"/>
+     </div>
+     <p class="text-gray-900 text-base">
+      Fast Transit Times
+     </p>
+     <!--<p class="text-blue-600 font-semibold text-lg">
+      30% Faster
+     </p>
+     <p class="text-gray-500 text-sm max-w-xs">
+      Optimized routing and priority handling for faster delivery times
+     </p> -->
+    </div>
+    <div class="bg-white rounded-xl p-8 flex flex-col items-center text-center space-y-4">
+     <div class="bg-[#f9fafb] rounded-full p-5">
+      <img alt="Purple shield icon representing cargo protection" class="mx-auto" src="https://cpimg.tistatic.com/09360536/b/4/Cargo-Cover.jpg"/>
+     </div>
+     <p class="text-gray-900 text-base">
+      Cargo Protection
+     </p>
+     <!--<p class="text-blue-600 font-semibold text-lg">
+      99.8% Safe Delivery
+     </p>
+     <p class="text-gray-500 text-sm max-w-xs">
+      Comprehensive insurance coverage and secure handling procedures
+     </p> -->
+    </div>
+    <div class="bg-white rounded-xl p-8 flex flex-col items-center text-center space-y-4">
+     <div class="bg-[#f9fafb] rounded-full p-5">
+      <img alt="Orange upward arrow icon representing cost optimization" class="mx-auto" src="https://skilldynamics.com/wp-content/uploads/2024/03/cm2002p1a2c1c2illustrationscm2002p1a2c2cost-optimizationfinal01.png"/>
+     </div>
+     <p class="text-gray-900 text-base">
+      Cost Optimization
+     </p>
+     <!--<p class="text-blue-600 font-semibold text-lg">
+      25% Cost Savings
+     </p>
+     <p class="text-gray-500 text-sm max-w-xs">
+      Competitive rates and supply chain optimization for cost savings
+     </p> -->
+    </div>
+   </div>
+  </section>
+
+  <!-- <section class="max-w-7xl mx-auto px-4 py-16">
+    <div class="text-center max-w-xl mx-auto">
+      <h2 class="font-extrabold text-xl md:text-2xl mb-2">Industries We Serve</h2>
+      <p class="text-slate-600 text-sm md:text-base">
+        Specialized logistics solutions across diverse industry sectors
+      </p>
+    </div>
+    <div class="mt-12 flex flex-wrap justify-center gap-x-20 gap-y-4 max-w-4xl mx-auto">
+      <div class="flex flex-col space-y-4">
+        <button
+          class="text-sm font-semibold text-slate-900 bg-white border border-slate-300 rounded-md px-5 py-2 text-left hover:bg-slate-50"
+          type="button"
+        >
+          Automotive &amp; Heavy Machinery
+        </button>
+        <button
+          class="text-sm font-semibold text-slate-900 bg-white border border-slate-300 rounded-md px-5 py-2 text-left hover:bg-slate-50"
+          type="button"
+        >
+          Textiles &amp; Apparel
+        </button>
+        <button
+          class="text-sm font-semibold text-slate-900 bg-white border border-slate-300 rounded-md px-5 py-2 text-left hover:bg-slate-50"
+          type="button"
+        >
+          Construction Materials
+        </button>
+        <button
+          class="text-sm font-semibold text-slate-900 bg-white border border-slate-300 rounded-md px-5 py-2 text-left hover:bg-slate-50"
+          type="button"
+        >
+          Renewable Energy Equipment
+        </button>
+      </div>
+      <div class="flex flex-col space-y-4">
+        <button
+          class="text-sm font-semibold text-slate-900 bg-white border border-slate-300 rounded-md px-5 py-2 text-left hover:bg-slate-50"
+          type="button"
+        >
+          Oil &amp; Gas Equipment
+        </button>
+        <button
+          class="text-sm font-semibold text-slate-900 bg-white border border-slate-300 rounded-md px-5 py-2 text-left hover:bg-slate-50"
+          type="button"
+        >
+          Food &amp; Beverages
+        </button>
+        <button
+          class="text-sm font-semibold text-slate-900 bg-white border border-slate-300 rounded-md px-5 py-2 text-left hover:bg-slate-50"
+          type="button"
+        >
+          Consumer Goods
+        </button>
+      </div>
+      <div class="flex flex-col space-y-4">
+        <button
+          class="text-sm font-semibold text-slate-900 bg-white border border-slate-300 rounded-md px-5 py-2 text-left hover:bg-slate-50"
+          type="button"
+        >
+          Electronics &amp; Technology
+        </button>
+        <button
+          class="text-sm font-semibold text-slate-900 bg-white border border-slate-300 rounded-md px-5 py-2 text-left hover:bg-slate-50"
+          type="button"
+        >
+          Pharmaceuticals &amp; Healthcare
+        </button>
+        <button
+          class="text-sm font-semibold text-slate-900 bg-white border border-slate-300 rounded-md px-5 py-2 text-left hover:bg-slate-50"
+          type="button"
+        >
+          Chemicals &amp; Hazardous Materials
+        </button>
+      </div>
+    </div>
+  </section> -->
+
+<!-- Footer -->
+  <footer class="bg-white border-t border-gray-200 mt-16">
+    <div class="max-w-[1280px] mx-auto px-6 py-10 grid grid-cols-1 sm:grid-cols-3 gap-10 text-gray-700">
+      <div>
+        <h4 class="text-lg font-semibold mb-4 text-[#1a2a4f]">DoorToShore LLP</h4>
+        <p class="text-sm max-w-xs">
+          Trusted Shipping &amp; Marine Services provider located in Surat, Gujarat, India. Delivering end-to-end maritime solutions with a focus on efficiency and compliance.
+        </p>
+        <div class="flex space-x-4 mt-4 text-[#2a52d8] text-xl">
+          <a href="#" aria-label="Facebook" class="hover:text-[#1a2a4f]"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Twitter" class="hover:text-[#1a2a4f]"><i class="fab fa-twitter"></i></a>
+          <a href="#" aria-label="LinkedIn" class="hover:text-[#1a2a4f]"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" aria-label="Instagram" class="hover:text-[#1a2a4f]"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <div>
+        <h4 class="text-lg font-semibold mb-4 text-[#1a2a4f]">Quick Links</h4>
+           <ul class="space-y-2 text-sm">
+          <li><a href="index3.html" class="hover:text-[#2a52d8]">Home</a></li>
+          <li><a href="services.html" class="hover:text-[#2a52d8]">Services</a></li>
+         <li><a href="#" class="hover:text-[#2a52d8]">Freight Forwarding &amp; Logistics</a></li>
+          <li><a href="ship.html" class="hover:text-[#2a52d8]">Toolkit</a></li>
+          <li><a href="client.html" class="hover:text-[#2a52d8]">Client Testimonials</a></li>
+          <li><a href="testimonial.html" class="hover:text-[#2a52d8]">Submit Testimonials</a></li>
+          <li><a href="contact.html" class="hover:text-[#2a52d8]">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="text-lg font-semibold mb-4 text-[#1a2a4f]">Contact Us</h4>
+        <address class="not-italic text-sm space-y-3">
+          <p><i class="fas fa-map-marker-alt mr-2 text-[#2a52d8]"></i> Surat, Gujarat, India</p>
+          <p><i class="fas fa-phone-alt mr-2 text-[#2a52d8]"></i> <a href="tel:+919408522980" class="hover:text-[#2a52d8]">+91 94085 22980</a></p>
+          <p><i class="far fa-envelope mr-2 text-[#2a52d8]"></i> <a href="mailto:ops@doortoshore.co.in" class="hover:text-[#2a52d8]">ops@doortoshore.co.in</a></p>
+        </address>
+      </div>
+    </div>
+    <div class="border-t border-gray-200 mt-8 py-4 text-center text-xs text-gray-500 select-none">
+      &copy; 2024 DoorToShore LLP. All rights reserved.
+    </div>
+  </footer>
+
+ </body>
+</html>

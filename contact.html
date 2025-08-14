@@ -1,0 +1,394 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Submit Your Testimonial</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+    rel="stylesheet"
+  />
+  <style>
+    body {
+      font-family: "Inter", sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-white text-gray-900">
+      <header class="bg-white shadow-sm">
+    <nav class="max-w-[1280px] mx-auto flex flex-wrap items-center justify-between gap-4 px-6 py-4 text-sm text-[#1a2a4f] select-none overflow-x-auto scrollbar-hide">
+      <a href="#" class="flex items-center gap-2 shrink-0">
+        <div class="bg-[#2a52d8] rounded-lg p-2">
+          <i class="fas fa-anchor text-white text-lg"></i>
+        </div>
+        <span class="font-semibold text-[#1a2a4f] whitespace-nowrap">DoorToShore LLP</span>
+      </a>
+      
+      <!-- Desktop Menu -->
+      <div class="hidden md:flex items-center gap-4 flex-grow">
+        <a href="index3.html" class="whitespace-nowrap">
+          Home
+        </a>
+        <a href="services.html" class="whitespace-nowrap">Services</a>
+        <a href="freight.html" class="whitespace-nowrap">Freight Forwarding & Logistics</a>
+        <a href="ship.html" class="whitespace-nowrap">Toolkit</a>
+        <a href="client.html" class="whitespace-nowrap">Client Testimonials</a>   
+        <a href="testimonial.html" class="whitespace-nowrap">Submit Testimonials</a>
+        <a href="#" class="bg-[#2a52d8] text-white rounded-xl px-4 py-2 font-semibold relative">Contact
+            <span class="absolute -bottom-1 left-1/2 -translate-x-1/2 w-2 h-2 bg-white rounded-full"></span>
+   
+        </a>
+      </div>
+
+      <!-- Hamburger Menu Button -->
+      <button id="menu-toggle" class="md:hidden flex items-center text-[#2a52d8] focus:outline-none">
+        <i class="fas fa-bars"></i>
+      </button>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden md:hidden bg-white shadow-md">
+      <a href="index3.html" class="block px-4 py-2 text-sm text-[#1a2a4f]">Home</a>
+      <a href="services.html" class="block px-4 py-2 text-sm text-[#1a2a4f]">Services</a>
+      <a href="freight.html" class="block px-4 py-2 text-sm text-[#1a2a4f]">Freight Forwarding & Logistics</a>
+      <a href="ship.html" class="block px-4 py-2 text-sm text-[#1a2a4f]">Toolkit</a>
+      <a href="client.html" class="block px-4 py-2 text-sm text-[#1a2a4f]">Client Testimonials</a>
+      <a href="testimonial.html" class="block px-4 py-2 text-sm text-[#1a2a4f]">Submit Testimonials</a>
+      <a href="#" class="block px-4 py-2 text-sm text-[#1a2a4f]">Contact</a>
+    </div>
+  </header>
+
+  <script>
+    const menuToggle = document.getElementById('menu-toggle');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    menuToggle.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+ 
+ <!-- Hero Section -->
+  <section class="bg-gradient-to-b from-[#2e40d4] to-[#3f4de9] py-12 text-center text-white">
+   <div class="max-w-7xl mx-auto px-4">
+    <h1 class="text-4xl font-extrabold flex justify-center items-center space-x-3">
+     <img alt="Red phone call icon" class="inline-block" src="https://placehold.co/32x32/png?text=📞"/>
+     <span>
+      Get in Touch
+     </span>
+    </h1>
+    <p class="mt-4 text-lg font-normal max-w-3xl mx-auto">
+     Contact DoorToShore LLP for reliable, professional, and efficient shipping solutions
+    </p>
+   </div>
+  </section>
+  <!-- Features Section -->
+  <section class="max-w-7xl mx-auto px-4 py-12 grid grid-cols-2 sm:grid-cols-4 gap-y-8 text-center text-[#1f2937]">
+   <div>
+    <i class="far fa-clock text-[#2563eb] text-2xl mb-2">
+    </i>
+    <p class="font-bold text-sm">
+     24/7
+    </p>
+    <p class="text-xs">
+     Operational Support
+    </p>
+   </div>
+   <div>
+    <i class="fas fa-phone-alt text-[#2563eb] text-2xl mb-2">
+    </i>
+    <p class="font-bold text-sm">
+     2-4 Hours
+    </p>
+    <p class="text-xs">
+     Response Time
+    </p>
+   </div>
+   <div>
+    <i class="fas fa-globe text-[#2563eb] text-2xl mb-2">
+    </i>
+    <p class="font-bold text-sm">
+     WCI Ports
+    </p>
+    <p class="text-xs">
+     Coverage Area
+    </p>
+   </div>
+   <div>
+    <i class="fas fa-anchor text-[#2563eb] text-2xl mb-2">
+    </i>
+    <p class="font-bold text-sm">
+     Maritime Experts
+    </p>
+    <p class="text-xs">
+     Professional Team
+    </p>
+   </div>
+  </section>
+
+   <main class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 py-10 grid grid-cols-1 lg:grid-cols-12 gap-8">
+   <!-- Left form container -->
+   <section class="lg:col-span-6 bg-white rounded-xl p-6 sm:p-8 shadow-sm border border-transparent hover:border-[#d1d5db] transition">
+    <h2 class="text-lg font-semibold mb-2">
+     Send us a Message
+    </h2>
+    <p class="text-[#6b7280] mb-6 text-sm leading-relaxed">
+     Ready to streamline your maritime operations? Fill out the form below and our team will get back to you within 2-4 hours
+    </p>
+    <form class="space-y-4">
+     <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+      <div>
+       <label class="block text-xs font-semibold mb-1" for="name">
+        Name
+        <span class="text-[#ef4444]">
+         *
+        </span>
+       </label>
+       <input class="w-full rounded-md bg-[#f3f4f6] border border-transparent focus:border-[#2a47c9] focus:ring-1 focus:ring-[#2a47c9] text-sm placeholder:text-[#9ca3af] px-3 py-2 outline-none" id="name" placeholder="Your full name" type="text"/>
+      </div>
+      <div>
+       <label class="block text-xs font-semibold mb-1" for="company">
+        Company Name
+        <span class="text-[#ef4444]">
+         *
+        </span>
+       </label>
+       <input class="w-full rounded-md bg-[#f3f4f6] border border-transparent focus:border-[#2a47c9] focus:ring-1 focus:ring-[#2a47c9] text-sm placeholder:text-[#9ca3af] px-3 py-2 outline-none" id="company" placeholder="Your company name" type="text"/>
+      </div>
+     </div>
+     <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+      <div>
+       <label class="block text-xs font-semibold mb-1" for="phone">
+        Phone Number
+        <span class="text-[#ef4444]">
+         *
+        </span>
+       </label>
+       <input class="w-full rounded-md bg-[#f3f4f6] border border-transparent focus:border-[#2a47c9] focus:ring-1 focus:ring-[#2a47c9] text-sm placeholder:text-[#9ca3af] px-3 py-2 outline-none" id="phone" placeholder="+91 98765 43210" type="tel"/>
+      </div>
+      <div>
+       <label class="block text-xs font-semibold mb-1" for="email">
+        Email ID
+        <span class="text-[#ef4444]">
+         *
+        </span>
+       </label>
+       <input class="w-full rounded-md bg-[#f3f4f6] border border-transparent focus:border-[#2a47c9] focus:ring-1 focus:ring-[#2a47c9] text-sm placeholder:text-[#9ca3af] px-3 py-2 outline-none" id="email" placeholder="your.email@company.com" type="email"/>
+      </div>
+     </div>
+     <div>
+      <label class="block text-xs font-semibold mb-1" for="service">
+       Service of Interest
+      </label>
+      <select class="w-full rounded-md bg-[#f3f4f6] border border-transparent focus:border-[#2a47c9] focus:ring-1 focus:ring-[#2a47c9] text-sm placeholder:text-[#9ca3af] px-3 py-2 outline-none appearance-none" id="service">
+       <option disabled="" selected="">
+        Select a service
+       </option>
+       <option>
+        Marine Waste Management
+       </option>
+       <option>
+        Freight Forwarding
+       </option>
+       <option>
+        Port Agency
+       </option>
+       <option>
+        Logistics
+       </option>
+      </select>
+     </div>
+     <div>
+      <label class="block text-xs font-semibold mb-1" for="message">
+       Message
+       <span class="text-[#ef4444]">
+        *
+       </span>
+      </label>
+      <textarea class="w-full rounded-md bg-[#f3f4f6] border border-transparent focus:border-[#2a47c9] focus:ring-1 focus:ring-[#2a47c9] text-sm placeholder:text-[#9ca3af] px-3 py-2 outline-none resize-none" id="message" placeholder="Please describe your requirements, vessel details, ports, timeline, or any specific questions you have about our services..." rows="4"></textarea>
+     </div>
+     <button class="w-full bg-[#2a47c9] hover:bg-[#223ea8] text-white font-semibold text-sm py-3 rounded-md flex items-center justify-center space-x-2 transition" type="submit">
+      <i class="fas fa-paper-plane">
+      </i>
+      <span>
+       Send Message
+      </span>
+     </button>
+    </form>
+
+   </section>
+   
+
+   <!-- Right info container -->
+   <section class="lg:col-span-6 space-y-6">
+    <div class="bg-white rounded-xl p-6 sm:p-8 shadow-sm border border-transparent hover:border-[#d1d5db] transition">
+     <h3 class="text-base font-semibold mb-1">
+      DoorToShore LLP
+     </h3>
+     <p class="text-[#6b7280] mb-6 text-sm leading-relaxed">
+      Maritime Logistics &amp; Port Agency Experts
+     </p>
+     <ul class="space-y-5 text-sm text-[#1a1a1a]">
+      <li class="flex items-start space-x-3">
+       <div class="text-[#2a47c9] mt-[3px]">
+        <i class="fas fa-phone-alt fa-lg">
+        </i>
+       </div>
+       <div>
+        <p class="font-semibold leading-none">
+         Mobile
+        </p>
+        <a class="text-[#2a47c9] hover:underline text-sm leading-tight" href="tel:+919408522980">
+         +91 94085 22980
+        </a>
+        <p class="text-[#6b7280] text-xs leading-tight">
+         24/7 Operations Support
+        </p>
+       </div>
+      </li>
+      <li class="flex items-start space-x-3">
+       <div class="text-[#2a47c9] mt-[3px]">
+        <i class="far fa-envelope fa-lg">
+        </i>
+       </div>
+       <div>
+        <p class="font-semibold leading-none">
+         Email
+        </p>
+        <a class="text-[#2a47c9] hover:underline text-sm leading-tight" href="mailto:ops@doortoshore.co.in">
+         ops@doortoshore.co.in
+        </a>
+        <p class="text-[#6b7280] text-xs leading-tight">
+         All inquiries and operations
+        </p>
+       </div>
+      </li>
+      <li class="flex items-start space-x-3">
+       <div class="text-[#2a47c9] mt-[3px]">
+        <i class="fas fa-map-marker-alt fa-lg">
+        </i>
+       </div>
+       <div>
+        <p class="font-semibold leading-none">
+         Location
+        </p>
+        <p class="text-sm leading-tight">
+         Surat, Gujarat, India
+        </p>
+        <p class="text-[#6b7280] text-xs leading-tight">
+         West Coast of India (WCI)
+        </p>
+       </div>
+      </li>
+     </ul>
+    </div>
+    <div class="bg-white rounded-xl p-6 sm:p-8 shadow-sm border border-transparent hover:border-[#d1d5db] transition">
+     <h3 class="text-base font-semibold mb-4">
+      Our Coverage Area
+     </h3>
+     <p class="font-semibold mb-3 text-sm">
+      Major Ports We Serve:
+     </p>
+     <div class="grid grid-cols-2 gap-x-20 gap-y-2 text-xs max-w-md">
+      <span class="inline-block border border-[#d1d5db] rounded-md px-2 py-0.5">
+       Mumbai Port
+      </span>
+      <span class="inline-block border border-[#d1d5db] rounded-md px-2 py-0.5">
+       JNPT
+      </span>
+      <span class="inline-block border border-[#d1d5db] rounded-md px-2 py-0.5">
+       Kandla Port
+      </span>
+      <span class="inline-block border border-[#d1d5db] rounded-md px-2 py-0.5">
+       Mundra Port
+      </span>
+      <span class="inline-block border border-[#d1d5db] rounded-md px-2 py-0.5">
+       Pipavav Port
+      </span>
+      <span class="inline-block border border-[#d1d5db] rounded-md px-2 py-0.5">
+       Hazira Port
+      </span>
+     </div>
+     <div
+        class="mt-6 bg-blue-100 text-blue-800 text-sm rounded-lg p-4 max-w-xs"
+      >
+        <span class="font-semibold text-blue-700">Strategic Location:</span>
+        <span
+          >Based in Surat, Gujarat, we provide comprehensive maritime
+          services across all major West Coast India ports with local
+          expertise and 24/7 operational support.</span
+        >
+      </div>
+    </div>
+    
+   </section>
+
+
+
+ <section class="lg:col-span-12 space-y-6">
+    <div class="bg-white rounded-xl p-6 sm:p-8 shadow-sm border border-transparent hover:border-[#d1d5db] transition">
+   
+   <h2 class="font-bold text-xl mb-6" >Find Us</h2>
+  <p class="text-gray-600 mb-10 max-w-xl mx-auto">
+    Located in Surat, Gujarat - Gateway to West Coast India maritime operations
+  </p>
+
+  <div class="max-w-5xl mx-auto bg-blue-200 rounded-lg p-10">
+    <div class="flex flex-col items-center space-y-3">
+      <i class="fas fa-map-marker-alt text-blue-600 text-5xl"></i>
+      <h3 class="font-bold text-blue-900 text-lg">Surat, Gujarat, India</h3>
+      <p class="text-blue-600 text-sm">West Coast of India Operations Center</p>
+    </div>
+  </div>
+  </div>
+  </section>
+  </main>
+
+  
+
+<!-- Footer -->
+  <footer class="bg-white border-t border-gray-200 mt-16">
+    <div class="max-w-[1280px] mx-auto px-6 py-10 grid grid-cols-1 sm:grid-cols-3 gap-10 text-gray-700">
+      <div>
+        <h4 class="text-lg font-semibold mb-4 text-[#1a2a4f]">DoorToShore LLP</h4>
+        <p class="text-sm max-w-xs">
+          Trusted Shipping &amp; Marine Services provider located in Surat, Gujarat, India. Delivering end-to-end maritime solutions with a focus on efficiency and compliance.
+        </p>
+        <div class="flex space-x-4 mt-4 text-[#2a52d8] text-xl">
+          <a href="#" aria-label="Facebook" class="hover:text-[#1a2a4f]"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Twitter" class="hover:text-[#1a2a4f]"><i class="fab fa-twitter"></i></a>
+          <a href="#" aria-label="LinkedIn" class="hover:text-[#1a2a4f]"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" aria-label="Instagram" class="hover:text-[#1a2a4f]"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <div>
+        <h4 class="text-lg font-semibold mb-4 text-[#1a2a4f]">Quick Links</h4>
+         <ul class="space-y-2 text-sm">
+          <li><a href="index3.html" class="hover:text-[#2a52d8]">Home</a></li>
+          <li><a href="services.html" class="hover:text-[#2a52d8]">Services</a></li>
+         <li><a href="freight.html" class="hover:text-[#2a52d8]">Freight Forwarding &amp; Logistics</a></li>
+          <li><a href="ship.html" class="hover:text-[#2a52d8]">Toolkit</a></li>
+          <li><a href="client.html" class="hover:text-[#2a52d8]">Client Testimonials</a></li>
+          <li><a href="testimonial.html" class="hover:text-[#2a52d8]">Submit Testimonials</a></li>
+          <li><a href="#" class="hover:text-[#2a52d8]">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="text-lg font-semibold mb-4 text-[#1a2a4f]">Contact Us</h4>
+        <address class="not-italic text-sm space-y-3">
+          <p><i class="fas fa-map-marker-alt mr-2 text-[#2a52d8]"></i> Surat, Gujarat, India</p>
+          <p><i class="fas fa-phone-alt mr-2 text-[#2a52d8]"></i> <a href="tel:+919408522980" class="hover:text-[#2a52d8]">+91 94085 22980</a></p>
+          <p><i class="far fa-envelope mr-2 text-[#2a52d8]"></i> <a href="mailto:ops@doortoshore.co.in" class="hover:text-[#2a52d8]">ops@doortoshore.co.in</a></p>
+        </address>
+      </div>
+    </div>
+    <div class="border-t border-gray-200 mt-8 py-4 text-center text-xs text-gray-500 select-none">
+      &copy; 2024 DoorToShore LLP. All rights reserved.
+    </div>
+  </footer>
+
+  </body>
+  </html>
